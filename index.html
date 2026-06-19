@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAFAZ | Official Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="navbar">
+        <div class="logo-area">
+            <span class="brand-name">ZAFAZ</span>
+            <span class="est">EST. 2025</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#koleksi" class="nav-link">Koleksi</a>
+            <a href="#arsitektur" class="nav-link">Filosofi</a>
+            <a href="#kontak" class="nav-link">Kontak</a>
+        </nav>
+        <div class="nav-right">
+            <!-- FITUR: Tombol Ganti Tema (Dark/Light) -->
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">🌓</button>
+            
+            <!-- FITUR: Ikon Pemicu Keranjang Belanja -->
+            <button id="cart-trigger" class="icon-btn" aria-label="Open Cart">
+                🛒 <span id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-container">
+            <div class="geometric-badge">CASUAL SERIES // CLEAN & MINIMAL</div>
+            <h1 class="hero-title">ZAFAZ</h1>
+            <p class="hero-subtitle">Mendefinisikan ulang pakaian kasual melalui potongan asimetris dan struktur geometris yang berani. Simple looks. Real comfort. Everyday you.</p>
+            <div class="hero-actions">
+                <a href="#koleksi" class="btn-primary">Lihat Koleksi V.01</a>
+                <!-- FITUR: Tombol membuka pop-up panduan ukuran baju -->
+                <button id="open-size-guide" class="btn-secondary">Size Guide</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse-wheel"></div>
+            <span>SCROLL DOWN</span>
+        </div>
+    </section>
+
+    <!-- KOLEKSI / LOOKBOOK SECTION -->
+    <section id="koleksi" class="lookbook-section">
+        <div class="section-header">
+            <div class="title-wrap">
+                <span class="index">01 / LOOKBOOK</span>
+                <h2 class="section-title">Koleksi Esensial</h2>
+            </div>
+            <p class="section-desc">Keseimbangan sempurna antara estetika urban avant-garde dengan kenyamanan harian.</p>
+        </div>
+
+        <div class="modern-grid">
+            <!-- Produk 1: Aktif & Bisa Masuk Keranjang -->
+            <div class="product-card tall" data-id="1" data-name="Kaos Distro Skatepark" data-price="75000">
+            <div class="card-img-container">
+            <img src="img/tiktok-04.png" alt="Zafaz Boxy Tees">
+                <div class="tag-badge">NEW</div>
+            </div>
+            <div class="card-meta">
+                <span class="prod-series">RGF-SK01</span>
+                <h3 class="prod-title">Kaos Distro Skatepark</h3>
+                <p class="prod-desc">Katun berat 24s dengan potongan bahu turun (drop-shoulder).</p>
+        
+            <div class="price-wrapper">
+                <span class="prod-price-old">Rp 175.000</span>
+                <span class="prod-price">Rp 75.000</span>
+            </div>
+
+            <div class="size-selector">
+            <span class="size-label">Pilih Ukuran:</span>
+            <div class="size-options">
+                <button class="size-btn" data-size="S">S</button>
+                <button class="size-btn" data-size="M">M</button>
+                <button class="size-btn" data-size="L">L</button>
+                <button class="size-btn" data-size="XL">XL</button>
+            </div>
+        </div>
+        
+            <button class="add-to-cart-btn">Tambah ke Keranjang</button>
+            </div>
+        </div>
+
+            <!-- Produk 2: Coming Soon -->
+            <div class="product-card">
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800" alt="Zafaz Utility Jacket">
+                </div>
+                <div class="card-meta">
+                    <span class="prod-series">COMING SOON</span>
+                </div>
+            </div>
+
+            <!-- Produk 3: Coming Soon -->
+            <div class="product-card">
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=800" alt="Zafaz Modular Pants">
+                </div>
+                <div class="card-meta">
+                    <span class="prod-series">COMING SOON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHILOSOPHY SECTION -->
+    <section id="arsitektur" class="philosophy-section">
+        <div class="philosophy-container">
+            <div class="philo-text">
+                <span class="tagline-mini">// DNA BRAND</span>
+                <h2>Symmetry & Freedom</h2>
+                <p>Terinspirasi langsung dari logo panah silang (X) dan struktur segitiga-berlian yang presisi, ZAFAZ yang lahir di tahun 2025 memadukan batasan geometris dengan kebebasan berekspresi subkultur urban. Setiap jahitan mewakili arah panah yang bergerak maju ke masa depan.</p>
+                <div class="brand-stats">
+                    <div class="stat-box">
+                        <span class="num">2025</span>
+                        <span class="lbl">Established</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="num">100%</span>
+                        <span class="lbl">Premium Source</span>
+                    </div>
+                </div>
+            </div>
+            <div class="philo-visual">
+                <div class="geo-shape-art">
+                    <div class="line link-1"></div>
+                    <div class="line link-2"></div>
+                    <div class="center-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="kontak" class="modern-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2>ZAFAZ</h2>
+                <p>Masa depan pakaian minimalis terstruktur dimulai di sini.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Navigasi</h4>
+                    <a href="#home">Home</a>
+                    <a href="#koleksi">Koleksi</a>
+                    <a href="#arsitektur">Filosofi</a>
+                </div>
+                <div class="link-col">
+                    <h4>Channels</h4>
+                    <a href="https://www.instagram.com/zafaz.id">Instagram</a>
+                    <a href="https://www.tiktok.com/@zafaz74">TikTok</a>
+                    <a href="https://s.shopee.co.id/7AbFc0lE7K">Shopee</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ZAFAZ. Designed for the Avant-Garde.</p>
+            <p>EST. 2025 // All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- POP-UP ELEMENT: SIZE GUIDE MODAL -->
+    <div id="size-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal" class="close-btn">&times;</button>
+            <h3>Panduan Ukuran ZAFAZ</h3>
+            <p>Semua rilisan artikel kami menggunakan standar potongan *Regullar fit*.</p>
+            <table class="size-table">
+                <thead>
+                    <tr>
+                        <th>Size</th>
+                        <th>Lebar Dada (cm)</th>
+                        <th>Panjang Baju (cm)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>L</td><td>102</td><td>67</td></tr>
+                    <tr><td>XL</td><td>108</td><td>70</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- SIDE PANEL ELEMENT: SHOPPING CART SLIDE -->
+    <div id="cart-panel" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Keranjang</h3>
+            <button id="close-cart">&times;</button>
+        </div>
+        <div id="cart-items-container" class="cart-body">
+            <p class="empty-msg">Keranjang Anda kosong.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="total-area">
+                <span>Total:</span>
+                <span id="cart-total-price">Rp 0</span>
+            </div>
+            <button id="checkout-wa-btn" class="btn-checkout">Order via WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/6285721446979?text=Halo%20ZAFAZ,%20saya%20tertarik%20dengan%20koleksi%20bajunya." class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24" fill="currentColor">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+        <span>Chat Admin</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
